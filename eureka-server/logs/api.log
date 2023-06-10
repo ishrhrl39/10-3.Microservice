@@ -1,0 +1,117 @@
+2023-06-10T20:03:27.416+09:00  INFO 9628 --- [main] o.m.e.EurekaServerApplication            : The following 1 profile is active: "local"
+2023-06-10T20:03:28.205+09:00  INFO 9628 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e12ec92d-2836-3eeb-9641-f901557c6854
+2023-06-10T20:03:28.464+09:00  INFO 9628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2023-06-10T20:03:28.475+09:00  INFO 9628 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-10T20:03:28.475+09:00  INFO 9628 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-06-10T20:03:28.620+09:00  INFO 9628 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-10T20:03:28.628+09:00  INFO 9628 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1192 ms
+2023-06-10T20:03:29.636+09:00  INFO 9628 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2023-06-10T20:03:29.639+09:00  INFO 9628 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2023-06-10T20:03:29.813+09:00  INFO 9628 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2023-06-10T20:03:29.813+09:00  INFO 9628 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2023-06-10T20:03:31.084+09:00  INFO 9628 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-06-10T20:03:31.121+09:00  WARN 9628 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-06-10T20:03:31.144+09:00  INFO 9628 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-06-10T20:03:31.178+09:00  INFO 9628 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-06-10T20:03:31.179+09:00  INFO 9628 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2023-06-10T20:03:31.190+09:00  INFO 9628 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1686395011189 with initial instances count: 0
+2023-06-10T20:03:31.230+09:00  INFO 9628 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2023-06-10T20:03:31.231+09:00  WARN 9628 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2023-06-10T20:03:31.247+09:00  INFO 9628 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2023-06-10T20:03:31.248+09:00  INFO 9628 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2023-06-10T20:03:31.255+09:00  INFO 9628 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2023-06-10T20:03:31.318+09:00  INFO 9628 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2023-06-10T20:03:31.331+09:00  INFO 9628 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2023-06-10T20:03:31.331+09:00  INFO 9628 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2023-06-10T20:03:31.332+09:00  INFO 9628 --- [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2023-06-10T20:03:31.332+09:00  INFO 9628 --- [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2023-06-10T20:03:31.332+09:00  INFO 9628 --- [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2023-06-10T20:03:31.338+09:00  INFO 9628 --- [Thread-10] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2023-06-10T20:03:31.345+09:00  INFO 9628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2023-06-10T20:03:31.346+09:00  INFO 9628 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2023-06-10T20:03:31.583+09:00  INFO 9628 --- [main] o.m.e.EurekaServerApplication            : Started EurekaServerApplication in 5.959 seconds (process running for 7.038)
+2023-06-10T20:03:43.334+09:00  INFO 9628 --- [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-10T20:03:43.335+09:00  INFO 9628 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-10T20:03:43.337+09:00  INFO 9628 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-06-10T20:03:43.732+09:00  INFO 9628 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance AUTHENTICATION-SERVER/host.docker.internal:authentication-server:8900 with status UP (replication=false)
+2023-06-10T20:03:46.231+09:00  INFO 9628 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY-SERVER/host.docker.internal:gateway-server:8070 with status UP (replication=false)
+2023-06-10T20:04:31.332+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-06-10T20:05:31.333+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-06-10T20:06:31.340+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2023-06-10T20:06:36.969+09:00  INFO 9628 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/host.docker.internal:b9d76280bf480878574c1f94889578a4 with status UP (replication=false)
+2023-06-10T20:07:31.348+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2023-06-10T20:08:23.610+09:00  INFO 9628 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HISTORY-SERVICE/host.docker.internal:032ca06a2c271556087c29d108f4e930 with status UP (replication=false)
+2023-06-10T20:08:31.349+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-06-10T20:09:07.359+09:00  INFO 9628 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HISTORY-SERVICE/host.docker.internal:032ca06a2c271556087c29d108f4e930 with status DOWN (replication=false)
+2023-06-10T20:09:11.406+09:00  INFO 9628 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance HISTORY-SERVICE/host.docker.internal:032ca06a2c271556087c29d108f4e930 (replication=false)
+2023-06-10T20:09:21.646+09:00  INFO 9628 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/host.docker.internal:b9d76280bf480878574c1f94889578a4 with status DOWN (replication=false)
+2023-06-10T20:09:31.349+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-06-10T20:10:25.174+09:00  INFO 9628 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY-SERVER/host.docker.internal:gateway-server:8070 with status DOWN (replication=false)
+2023-06-10T20:10:31.349+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-06-10T20:10:35.528+09:00  INFO 9628 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/host.docker.internal:0a61557824120ae94de16abd55854754 with status UP (replication=false)
+2023-06-10T20:10:43.636+09:00  INFO 9628 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/host.docker.internal:e2aed3c0875d1ac1e276d784ee1ca164 with status UP (replication=false)
+2023-06-10T20:10:44.980+09:00  INFO 9628 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/host.docker.internal:0a61557824120ae94de16abd55854754 with status DOWN (replication=false)
+2023-06-10T20:11:31.349+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-06-10T20:12:31.349+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-06-10T20:13:31.227+09:00  WARN 9628 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2023-06-10T20:13:31.363+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2023-06-10T20:14:16.825+09:00  INFO 9628 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY-SERVER/host.docker.internal:gateway-server:8070 with status UP (replication=false)
+2023-06-10T20:14:31.365+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2023-06-10T20:15:31.366+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2023-06-10T20:15:34.130+09:00  INFO 9628 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HISTORY-SERVICE/host.docker.internal:89980f1e46f7df2190f03d7b926477a3 with status UP (replication=false)
+2023-06-10T20:16:31.369+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2023-06-10T20:17:31.370+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2023-06-10T20:18:31.248+09:00  INFO 9628 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 11
+2023-06-10T20:18:31.376+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2023-06-10T20:19:31.377+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2023-06-10T20:20:31.380+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2023-06-10T20:21:31.383+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2023-06-10T20:22:31.384+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-06-10T20:23:31.223+09:00  WARN 9628 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2023-06-10T20:23:31.385+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-06-10T20:24:31.386+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2023-06-10T20:25:31.387+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-06-10T20:26:31.388+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2023-06-10T20:27:31.388+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-06-10T20:28:31.388+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-06-10T20:29:31.388+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-06-10T20:30:31.388+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-06-10T20:31:31.388+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-06-10T20:32:31.388+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-06-10T20:33:31.216+09:00  WARN 9628 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2023-06-10T20:33:31.260+09:00  INFO 9628 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 11
+2023-06-10T20:33:31.388+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-06-10T20:34:31.389+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2023-06-10T20:35:31.397+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2023-06-10T20:36:31.410+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2023-06-10T20:37:31.425+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2023-06-10T20:38:31.434+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2023-06-10T20:39:31.434+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-06-10T20:40:31.441+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2023-06-10T20:41:31.441+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-06-10T20:42:31.451+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2023-06-10T20:43:31.221+09:00  WARN 9628 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2023-06-10T20:43:31.461+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2023-06-10T20:44:31.470+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2023-06-10T20:45:31.470+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-06-10T20:46:31.481+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2023-06-10T20:47:31.492+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2023-06-10T20:48:31.263+09:00  INFO 9628 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 11
+2023-06-10T20:48:31.504+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2023-06-10T20:49:31.514+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2023-06-10T20:50:31.517+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2023-06-10T20:51:31.519+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2023-06-10T20:52:31.528+09:00  INFO 9628 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2023-06-10T20:53:08.691+09:00  INFO 9628 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HISTORY-SERVICE/host.docker.internal:89980f1e46f7df2190f03d7b926477a3 with status DOWN (replication=false)
+2023-06-10T20:53:12.408+09:00  INFO 9628 --- [RMI TCP Connection(55)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-06-10T20:53:12.472+09:00  INFO 9628 --- [RMI TCP Connection(55)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2023-06-10T20:53:12.512+09:00  INFO 9628 --- [RMI TCP Connection(55)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-10T20:53:12.516+09:00  INFO 9628 --- [RMI TCP Connection(55)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-06-10T20:53:12.542+09:00  INFO 9628 --- [RMI TCP Connection(55)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2023-06-10T20:53:12.549+09:00  INFO 9628 --- [RMI TCP Connection(55)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2023-06-10T20:53:12.641+09:00  INFO 9628 --- [RMI TCP Connection(55)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2023-06-10T20:53:12.642+09:00  INFO 9628 --- [RMI TCP Connection(55)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2023-06-10T20:53:12.643+09:00  INFO 9628 --- [RMI TCP Connection(55)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2023-06-10T20:53:12.650+09:00  INFO 9628 --- [RMI TCP Connection(55)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2023-06-10T20:53:12.658+09:00  INFO 9628 --- [RMI TCP Connection(55)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-06-10T20:53:12.660+09:00  INFO 9628 --- [RMI TCP Connection(55)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
